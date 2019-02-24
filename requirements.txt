@@ -1,0 +1,14 @@
+ipython==6.4.0
+ipython-genutils==0.2.0
+jupyter==1.0.0
+jupyter-client==5.2.3
+jupyter-console==5.2.0
+jupyter-core==4.4.0
+jupyterlab==0.32.1
+jupyterlab-launcher==0.10.5
+lightfm==1.15
+matplotlib==2.2.2
+numpy==1.14.3
+plotly==3.6.1
+scikit-learn==0.19.1
+scipy==1.1.0
