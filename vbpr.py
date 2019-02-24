@@ -131,7 +131,7 @@ class VBPR:
 
 	def auc_score(self, ground_truth):
 		"""
-		Measure AUC for model and ground truth on all items.
+		Compute AUC for model and actual interactions.
 		"""
 
 		ground_truth = ground_truth.tocsr()
