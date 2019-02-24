@@ -81,10 +81,7 @@ class VBPR:
 		pos_latent_item = np.copy(self.latent_items[pos_item_idx])
 		neg_latent_item = np.copy(self.latent_items[neg_item_idx])
 		latent_user = np.copy(self.latent_users[user_idx])
-		# print(self.latent_users[user_idx])
 		self.update_param(self.latent_users[user_idx], d_sigmoid, pos_latent_item - neg_latent_item, self.lambda_u)
-		# print(self.latent_users[user_idx])
-		# print()
 		self.update_param(self.latent_items[pos_item_idx], d_sigmoid, latent_user, self.lambda_pos)
 		self.update_param(self.latent_items[neg_item_idx], d_sigmoid, -latent_user, self.lambda_neg)
 
