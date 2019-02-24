@@ -3,4 +3,5 @@ In this repo you will find my implementation of BPR and VBPR (paper for BPR: htt
 
 ## Setup
 To fully run this, you will need to have Python 3 installed along with all packages listed in requirements.txt.
-However, you can simply install Jupyter Notebook to view "BPR and VBPR Demo.ipynb" to view the notebook and see the results of the demo."# VBPR" 
+However, you can simply install Jupyter Notebook to view "BPR and VBPR Demo.ipynb" to view the notebook and see the results of the demo.
+Even more easily, you can view the notebook directly on Github (https://github.com/arogers1/VBPR).
