@@ -3,5 +3,6 @@ In this repo you will find my implementation of BPR and VBPR (paper for BPR: htt
 
 ## Setup
 To fully run this, you will need to have Python 3 installed along with all packages listed in requirements.txt.
+You will also need to download the GloVe 840B token Common Crawl word vector dataset, unzip it, and put it in the "/data" folder.
 However, you can simply install Jupyter Notebook to view "BPR and VBPR Demo.ipynb" to view the notebook and see the results of the demo.
 Even more easily, you can view the notebook directly on Github (https://github.com/arogers1/VBPR).
