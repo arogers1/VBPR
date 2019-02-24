@@ -23,8 +23,7 @@ class VBPR:
 		self.lambda_neg = lambda_neg
 		self.lambda_pos = lambda_pos
 		self.lambda_b = lambda_b
-		if not random_seed:
-			self.random_state = np.random.RandomState(seed=random_seed)
+		self.random_state = np.random.RandomState(seed=random_seed)
 
 	def init_bpr_params(self, X, item_content_features):
 		# latent vectors (gamma_u, gamma_i)
